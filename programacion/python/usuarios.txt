@@ -1,0 +1,3 @@
+ban:ban
+soru:soru
+banquito:kun
