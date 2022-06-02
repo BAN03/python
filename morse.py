@@ -4,7 +4,7 @@ palabra = input("palabra a traducir: ")
 
 # 36 lineas
 # letter to index
-index = {
+diccionario = {
     "a":1,
     "b":2,
     "c":3,
@@ -45,10 +45,10 @@ index = {
 }
 
 def convertir(letra):
-    x = 0
+    index = 0
     for line in read.split('\n'):
-        x += 1
-        if x == index[letra]:
+        index += 1
+        if index == diccionario[letra]:
             print(line)
 
 for letra in palabra:
